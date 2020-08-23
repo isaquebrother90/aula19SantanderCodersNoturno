@@ -10,6 +10,7 @@ public class ExcecaoTresTeste {
 			System.out.println(ExcecaoTres.divisao(4, 0));
 		} catch (ArithmeticException e) {
 			System.out.println(e.getMessage());
+			System.out.println("Testando integração com GitHub");
 		}
 
 	}
